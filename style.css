@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+/*------------------------------ Top Banner ----------------------------------*/
+#top-banner{
+    background-image: url(photos/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.welcome span{
+    color: red;
+}
+
+.header-2 span{
+    color: orange;
+}
+.header-2 b{
+    color: red;
+}
+
+.cnchor-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    background-image: linear-gradient(rgb(255, 136, 0) , rgb(238, 43, 9));
+    padding: 10px 40px;
+    border-radius: 8px;
+}
