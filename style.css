@@ -3,6 +3,8 @@ body{
     font-family: 'Cairo', sans-serif;
 }
 
+
+
 /*------------------------------ Top Banner ----------------------------------*/
 #top-banner{
     background-image: url(photos/top-banner.png);
@@ -11,6 +13,7 @@ body{
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -42,4 +45,14 @@ h1{
     background-image: linear-gradient(rgb(255, 136, 0) , rgb(238, 43, 9));
     padding: 10px 40px;
     border-radius: 8px;
+}
+
+
+
+
+/*--------------------------------- Dream-Big Section ------------------------------*/
+#dream-big{
+    background-image: url(photos/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
